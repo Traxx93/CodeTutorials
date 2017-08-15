@@ -17,7 +17,7 @@ body{
     font-size: 20px;
     font-family: "Verdana", serif;
     background-color: #e6e6e6;
-    background-image: : url('http://www.freeiconspng.com/uploads/search-icon-png-2.png') top left;
+    background-image: : url('content/searchicon.ico');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -54,7 +54,7 @@ li a {
     text-decoration: none;
     font-family: "Verdana", serif;
     font-size:18px;
-    transition:background-color 0.2s ease-in-out;
+    transition:background-color 0.4s ease-in-out;
 }
 li a:hover {
     background-color: #111;
