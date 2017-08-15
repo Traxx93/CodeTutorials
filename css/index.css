@@ -9,6 +9,30 @@ body{
 .menu{
 	border:5px solid #204056;
 }
+
+.search{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    font-size: 20px;
+    font-family: "Verdana", serif;
+    background-color: #e6e6e6;
+    background-image: : url('http://www.freeiconspng.com/uploads/search-icon-png-2.png') top left;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    align-content: center;
+}
+
+.search:focus{
+    width:200%;
+    background-color:white;
+    border:none;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,9 +40,11 @@ ul {
     overflow: hidden;
     background-color: #f7f7f7;
     color:black;
+
 }
 li {
     float: left;
+    align-content: center;
 }
 li a {
     display: block;
@@ -26,8 +52,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Verdana", serif;
+    font-size:18px;
+    transition:background-color 0.2s ease-in-out;
 }
 li a:hover {
     background-color: #111;
     color:white;
+
 }
